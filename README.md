@@ -1,23 +1,5 @@
-# 3D Viewport Scaling
+# Trying to use the 3d viewport scaling demo for 2d scaling
 
-This demo shows how to scale the 3D viewport rendering without affecting
-2D elements such as the HUD. It also demonstrates how to toggle filtering
-on a viewport by using TextureRect to display the ViewportTexture
-delivered by the Viewport node. This technique can be useful in 2D games
-as well. For instance, it can be used to have a "pixel art" viewport for
-the main game area and a non-pixel-art viewport for HUD elements.
+Based on this asset: https://godotengine.org/asset-library/asset/586
 
-ViewportContainer can also be used to display a viewport in a GUI, but it
-doesn't offer the ability to enable filtering.
-
-Language: GDScript
-
-Renderer: GLES 2
-
-Check out this demo on the asset library: https://godotengine.org/asset-library/asset/586
-
-## Screenshots
-
-![Screenshot](screenshots/high.png)
-
-![Screenshot](screenshots/low.png)
+Try out here: https://blaise-rascal.itch.io/2d-scaling-attempt
